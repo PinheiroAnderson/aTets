@@ -1,0 +1,31 @@
+# 📄 Formulário de Cadastro com Validações em Tempo Real
+
+Este projeto é um formulário de cadastro criado com **HTML**, **CSS** e **JavaScript**, 
+com foco em validações em tempo real, feedback visual para o usuário e boas práticas de estruturação e estilização. 
+Faz parte do projeto final da **Fase 1** do meu roadmap para me tornar Desenvolvedor Front-End Júnior.
+
+---
+
+## 🧠 Funcionalidades
+
+- ✅ Estrutura semântica com HTML5
+- 🎨 Estilização moderna com CSS3 (modo escuro, responsivo, animações)
+- 🛡️ Validações em tempo real com JavaScript puro:
+  - Nome com mínimo de 3 caracteres
+  - E-mail no formato válido
+  - Senha com no mínimo 6 caracteres
+  - Confirmação de senha igual à senha principal
+- ⚠️ Mensagens de erro visuais próximas aos inputs
+- 📬 Alerta de sucesso com exibição de nome e e-mail no final
+
+---
+
+## 📂 Tecnologias Usadas
+
+- HTML5
+- CSS3 (com variáveis e efeitos de transição)
+- JavaScript puro (ES6)
+
+---
+
+

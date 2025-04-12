@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <script src="form.js" defer></script>
+    <title>Formulário de Cadastro</title>
+  </head>
+
+  <body>
+    
+      <div class="container">
+        <h1>Formulário🔥</h1>
+        <form id="form">
+          <div>
+            <input
+              type="text"
+              id="nome"
+              placeholder="Digite seu nome"
+              class="input required"
+              oninput="validarNome()"
+            />
+            <span class="error"
+              >Nome deve ter nomino mínimo de 3 caracteres</span
+            >
+          </div>
+
+          <div>
+            <input
+              type="text"
+              id="email"
+              placeholder="Digite seu e-mail"
+              class="input required"
+              oninput="validarEmail()"
+            />
+            <span class="error">E-mail inválido</span>
+          </div>
+
+          <div>
+            <input
+              type="password"
+              id="password"
+              placeholder="Digite senha"
+              class="input required"
+              oninput="validarSenha()"
+            />
+            <span class="error">Senha deve ter no mínimo 6 caracteres</span>
+          </div>
+
+          <div>
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Confirme sua senha"
+              class="input required"
+              oninput=" validarSenhaConfirmacao()"
+            />
+            <span class="error">As senhas não coincidem</span>
+          </div>
+          <button type="submit" class="btn" onclick="cadastro()">Enviar</button>
+        </form>
+      </div>
+    
+    
+  </body>
+</html>
