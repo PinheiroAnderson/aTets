@@ -90,7 +90,7 @@ function cadastrosRealizados() {
     const card = document.createElement("div");
     card.classList.add("card");
 
-    const nome = document.createElement("h3");
+    const nome = document.createElement("p");
     nome.textContent = `Nome: ${cadastro.nome}`;
 
     const email = document.createElement("p");
